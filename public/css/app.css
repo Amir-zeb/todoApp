@@ -22,15 +22,19 @@ body{
     width: 100px;
 }
 .li-btn{
-    float: right !important;
-    background-color: rgb(96, 138, 255);
-    color: white;
-    border-radius:4px;
-    width: 100px;
+    float: right !important;    
+    padding: 10px;
 }
 li{
-    padding:5px 0 5px 0;
+    padding:10px 0 10px 0px;
+    margin: 0 10px 0 25px;
+    
 }
 #list{
     list-style-type: decimal;
+    
+}
+ul{
+    max-height: 500px;
+    overflow-y: scroll;
 }
