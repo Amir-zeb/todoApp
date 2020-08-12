@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image: url("../img/7057cbcecaa171b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.back-g{
+    background-color: rgba(245, 245, 220, 0.9);
+    width: 50%;
+    padding:20px;
+    margin: 0 auto 0 auto;
+}
+.todo-btn{
+    background-color: rgb(96, 138, 255);
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+}
+.li-btn{
+    float: right !important;
+    background-color: rgb(96, 138, 255);
+    color: white;
+    border-radius:4px;
+    width: 100px;
+}
+li{
+    padding:5px 0 5px 0;
+}
+#list{
+    list-style-type: decimal;
+}
